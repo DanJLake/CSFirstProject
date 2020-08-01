@@ -37,6 +37,10 @@ namespace CSFirstProject
 
                 //Use object method
                 jenkins.greeting();
+
+                //Exit confirmation
+                Console.WriteLine("\nPress any key to exit.");
+                Console.ReadKey();
             }
 
         }
